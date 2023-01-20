@@ -44,3 +44,15 @@ const coordinates: {
 } = JSON.parse(json);
 
 console.log(coordinates);
+
+// 2). When we declare a variable in one line
+// and intialize it later
+
+let words = ['green', 'yellow', 'banana', 'orange'];
+let foundWords: boolean;
+
+for (let i = 0; i < words.length; i++) {
+  if (words[i] === 'green') {
+    foundWords = true;
+  }
+}
