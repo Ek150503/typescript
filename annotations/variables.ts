@@ -38,5 +38,9 @@ const logNumber: (i: number) => void = (i: number) => {
 
 const json = '{"name": "Ek", "age": 18}';
 
-const coordinates = JSON.parse(json);
+const coordinates: {
+  name: string;
+  age: number;
+} = JSON.parse(json);
+
 console.log(coordinates);
