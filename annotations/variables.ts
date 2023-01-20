@@ -32,3 +32,11 @@ let point: {
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
+
+// when we use annotations,
+// 1).Function that returns any type
+
+const json = '{"name": "Ek", "age": 18}';
+
+const coordinates = JSON.parse(json);
+console.log(coordinates);
