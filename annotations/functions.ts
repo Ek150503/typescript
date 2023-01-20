@@ -48,3 +48,26 @@ const throwError1 = (message: string): string => {
 
   return message;
 };
+
+const todayWeather = {
+  date: new Date(),
+  wheater: 'sunny',
+};
+
+const logWeather = (forcast: { date: Date; wheater: string }): void => {
+  console.log(forcast.date);
+  console.log(forcast.wheater);
+};
+
+const logWeather1 = ({
+  date,
+  wheater,
+}: {
+  date: Date;
+  wheater: string;
+}): void => {
+  console.log(date);
+  console.log(wheater);
+};
+
+logWeather(todayWeather);
