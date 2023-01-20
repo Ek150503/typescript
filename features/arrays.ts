@@ -23,3 +23,16 @@ carMaker.push('2435');
 //help with 'map'
 
 carMaker.map((car: string): string => car.toUpperCase());
+
+// flexible type
+
+const importantDate: (string | Date)[] = [
+  new Date(),
+  '2020-12-12',
+  '2012-08-02',
+  new Date(),
+];
+
+importantDate.push(new Date());
+importantDate.push('2022-12-12');
+// importantDate.push(45551);
