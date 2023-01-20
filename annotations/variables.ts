@@ -26,3 +26,9 @@ let point: {
   x: 10,
   y: 'name',
 };
+
+// function
+
+const logNumber: (i: number) => void = (i: number) => {
+  console.log(i);
+};
