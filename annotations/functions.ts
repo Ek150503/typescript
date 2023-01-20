@@ -14,3 +14,11 @@ const add1: func = (a, b) => {
 interface Props {
   onclick: () => void;
 }
+
+const add2 = (a: number, b: number) => {
+  return a + b;
+};
+
+const sub = (a: number, b: number): number => {
+  return a - b;
+};
