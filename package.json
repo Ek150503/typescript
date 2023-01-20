@@ -1,0 +1,20 @@
+{
+  "name": "01-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ek150503/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ek150503/typescript/issues"
+  },
+  "homepage": "https://github.com/Ek150503/typescript#readme"
+}
