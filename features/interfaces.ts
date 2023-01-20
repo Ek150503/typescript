@@ -5,6 +5,10 @@ interface Vehicle {
   summary: () => string;
 }
 
+interface Reportable {
+  summary: () => string;
+}
+
 const oldCivic = {
   name: 'Civic',
   year: new Date(),
@@ -14,10 +18,8 @@ const oldCivic = {
   },
 };
 
-const printVihicle = (vihicle: Vehicle): void => {
-  console.log(`
-  the vihicle ${vihicle.name} has been released since ${vihicle.year} and now it's bloken (${vihicle.broken})
-  `);
+const printSummary = (item: Reportable): void => {
+  console.log(item.summary());
 };
 
-printVihicle(oldCivic);
+printSummary(oldCivic);
