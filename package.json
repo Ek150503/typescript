@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ek150503/typescript/issues"
   },
-  "homepage": "https://github.com/Ek150503/typescript#readme"
+  "homepage": "https://github.com/Ek150503/typescript#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
